@@ -14,9 +14,13 @@ This repository documents my cybersecurity learning journey—the challenges I'v
 
 It also contains all of my cybersecurity notes, which are written entirely by me. My goal is to build a **strong foundation**, **track my progress**, and hopefully help other beginners who are starting their own cybersecurity journey by letting them know **what not to do**.
 
+---
+
 # Before This Repository
 
 Before creating this repository, I had been learning cybersecurity for about a week. I started on **4 July 2026**, and by the time i created this respitory, I had learned the bare minimum Linux fundamentals, such as what Linux is, what the Linux kernel is, and a few basic file handling commands.
+
+---
 
 # Why CyberSecurity
 
@@ -28,13 +32,17 @@ At last, the AI which forced me to change my goal from Developer to a role in Cy
 
 I am thankful to AI, because it diverted me towards CyberSecurity, as now I'm more interested in CyberSecurity than I was in becoming a Developer
 
-# 📖 Current Status
+---
+
+# Current Status
 
 **Started:** July 2026
 
 **Current Focus:** Linux Hardware
 
-# 📝 What You'll Find Here
+---
+
+# What You'll Find Here
 
 I'll be documenting:
 

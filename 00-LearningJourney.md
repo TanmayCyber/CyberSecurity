@@ -22,5 +22,11 @@ This doubt came to my mind because almost every YouTuber had different content f
 
 So, I decieded to skip Networking for now and decieded to start learning Linux.
 
-Then almost similar problem came to me, every youtube tutorials skipped basics and the ones who taught Linux basics used such terminologies that me as a begginer could not understand.
-In the process of trying to find good learning resources i got to know about TryHackMe, Github and Reddit. 
+Then a similar problem came up — every YouTube tutorial skipped the basics, and the ones that did teach Linux basics used terminology that I, as a beginner, couldn't understand.
+In the process of trying to find good learning resources, I got to know about TryHackMe, GitHub, LabEx, and Reddit.
+AI recommended that I document everything I learn on GitHub. But I thought I shouldn't just document whatever I learn — I should also document what I experienced.
+So that's how my day ended.
+
+## Day 5
+
+I starting learning Linux from AI generated content/notes and doing hands on labs on LabEx, I found that LabEx is a really great website for a beginner to start learning linux. I le

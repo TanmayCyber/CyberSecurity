@@ -20,14 +20,14 @@
 
 - **Hardware:** The Physical components of a computer are known as its hardware.
   * Example: CPU(Central Processing Unit), Keyboard, Monitor etc.
-- **Users:** A user is any individual or program that interacts with computer.
+- **Users:** A user is any individual or program that interacts with a computer.
     * Example: Student, Programmer etc.
-- **Software:** A Software is a set of instructions programmed to complete a specific task. It is mainly divided into 3 types:
+- **Software:** Software is a set of instructions programmed to complete a specific task. It is mainly divided into 3 types:
   
   * Application Software: It is a type of software designed to complete a specific task.
       * Example: MS Word, Instagram, Facebook etc.
   
-  * Utility Software: Utility Softwares helps us analyze, optimize and maintain our Computer System.
+  * Utility Software: Utility Software helps us analyze, optimize and maintain our Computer System.
       * Example: Disk Fragmenter, Antivirus etc.
   
   * System Software: It is a type of software designed to run Computer's hardware and Application Software.
@@ -57,9 +57,9 @@
 
 # Linux
 
-As mentioned in the Linux History, Linux is not an operation System, it is a kernel
+As mentioned in the Linux History, Linux is not an operating System, it is a kernel.
 
->GNU and Linux combined makes a operating system that is commonly known as Linux.
+>GNU and Linux combined make an operating system that is commonly known as Linux.
 
 Without the kernel, the operating system cannot function.
 
@@ -67,28 +67,40 @@ Without the kernel, the operating system cannot function.
 
 ## Why Linux?
 
-Linux has became one of the most important Operating Systems at present because it is:
+Linux has become one of the most important Operating Systems at present because it is:
 
-- **Free:** Most of the Distros of Linux are available for free at its official website
+- **Free:** Most of the Distros of Linux are available for free at their official websites.
 - **Open Source:** Source Code of Linux is available to us and we are free to use, edit, and share it.
 - **Secure:** Linux is more secure because of its strong permission system and open-source development reduces the risk of unauthorized access and malware.
 - **Stable:** Linux is more stable because its efficient resource management and process isolation allows it to run reliably for long periods without crashing.
-- **Flexible:** We can custumize Linux according to our prefernce and requirements.
+- **Flexible:** We can customize Linux according to our preference and requirements.
 
-Cybersecurity professionals work with operating systems daily, tasks such as system administration, network analysis, log analysis etc are commonly performed on Linux systems.
+Cybersecurity professionals work with operating systems daily, tasks such as system administration, network analysis, log analysis, etc., are commonly performed on Linux systems.
 
 Most cybersecurity tools are developed primarily for Linux because it offers powerful command-line utilities, scripting capabilities, and fine-grained control over system resources.
 
 
 A strong Linux foundation makes advanced cybersecurity topics significantly easier to understand.
 
-Linux is used almost everywhere, Mobile Devices(Android is also based on linux), SuperComputers, Cloud Computing, and of cource CyberSecurity. That is also the reason why Linux is impportant for CyberSecurity.
+Linux is used almost everywhere: Mobile Devices(Android is also based on Linux), Supercomputers, Cloud Computing, and of course Cybersecurity. That is also the reason why Linux is important for Cybersecurity.
 
 ---
 
-# Linux EcoSystem
+## Linux Ecosystem
 
-The Linux EcoSystem is the set of programs, projects, communities and tools that work together to make Linux based operating systems.
+The Linux Ecosystem is the broader collection of projects, tools, and communities 
+that different distros draw from. Each layer has multiple competing options:
+
+- **Kernel:** Linux Kernel (the one constant across all distros)
+- **Core utilities:** GNU Utilities, BusyBox (lighter alternative)
+- **Shells:** bash, zsh, fish
+- **Package Managers:** APT (Debian/Ubuntu), DNF (Fedora), Pacman (Arch)
+- **Desktop Environments:** GNOME, KDE Plasma, XFCE
+- **Software Repositories:** distro-specific repos, Flatpak, Snap
+
+## Linux Distributions (Distro)
+A distro is one complete, assembled operating system built by picking specific 
+options from the ecosystem above. Example — Ubuntu:
 
 - Linux Kernel
 - GNU Utilities
@@ -98,20 +110,53 @@ The Linux EcoSystem is the set of programs, projects, communities and tools that
 - Software Repositories
 - Desktop Environment (optional)
 - Applications
-
-## Linux Distributions(Distro)
-
-A Linux Distribution (distro) is a complete operating system built around the Linux kernel, it includes:
-
-- Linux Kernel
-- GNU Utilities
-- System Libraries
-- Shell
-- Package Manager
-- Software Repositories
-- Desktop Environment (optional)
-- Applications
+- Documentation
 
 ## Linux Kernel
 
-The Linux Kernel is the core of every Linux Distro, it acts as the intermediate between Hardware and Software, and provides essential information/services to the running software.
+The Linux Kernel is the core of every Linux Distro. It acts as the intermediary between hardware and software, and provides essential information/services to the running software. It does this through:
+
+- Process management
+- Memory management
+- Hardware communication
+- Device management
+- File system management
+- Network management
+- Security enforcement
+
+Every Linux distribution uses the Linux kernel, although different distributions might use different kernel versions.
+
+## GNU Utilities
+
+GNU provides many commands that we will use daily in the future, examples include:
+
+- `ls`
+- `cp`
+- `mv`
+- `rm`
+- `mkdir`
+- `cat`
+- `grep`
+- `chmod`
+- `chown`
+- `bash`
+
+Without GNU utilities, Linux would only provide the kernel, making it difficult for users to interact with the system.
+
+## System Libraries
+
+Libraries provide reusable code that applications use. Instead of calling the same command repeatedly, applications call library functions. Some common libraries are:
+
+- glibc
+- OpenSSL
+- libstdc++
+
+## Shell
+
+The Shell is a program that interprets user commands and communicates with the operating system. Popular Linux shells are:
+
+- Bash: Common shell on many distros
+- Zsh: Interactive shell with plugins/add-ons
+- Fish: Beginner-friendly interactive shell
+
+>Note: Terminal is the interface on which we type commands and shells are the interpreters that communicate with the OS for output.

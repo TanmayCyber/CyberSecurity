@@ -31,6 +31,10 @@ So that's how my day ended.
 
 I starting learning Linux from AI generated content/notes and doing hands on labs on LabEx, I also found that LabEx is a really great website for a beginner to start learning linux. I leared many commands like `cat` , `ls` , `cd` .
 
-## Day 6-13
+## Day 6 – Day 13
 
-I created my first repo and started documenting everything, but I used too much AI and almost everything was AI generated in that respitory. On day 9 I deleted that respitory and 
+I created my first GitHub repository and started documenting everything I learned. However, I relied too much on AI, and almost everything in that repository was AI-generated. After a while, I realized that I wasn't actually learning much by doing that.
+
+So, on **Day 9**, I deleted that repository and created this one. This time, I decided to write everything myself and use AI only to help me understand concepts, not to write my notes for me.
+
+Looking back, deleting my first repository was one of the best decisions I made because it encouraged me to learn, understand, and explain things in my own words.

@@ -29,4 +29,8 @@ So that's how my day ended.
 
 ## Day 5
 
-I starting learning Linux from AI generated content/notes and doing hands on labs on LabEx, I found that LabEx is a really great website for a beginner to start learning linux. I le
+I starting learning Linux from AI generated content/notes and doing hands on labs on LabEx, I also found that LabEx is a really great website for a beginner to start learning linux. I leared many commands like `cat` , `ls` , `cd` .
+
+## Day 6-13
+
+I created my first repo and started documenting everything, but I used too much AI and almost everything was AI generated in that respitory. On day 9 I deleted that respitory and 

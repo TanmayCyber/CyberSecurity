@@ -38,9 +38,9 @@ I am thankful to AI, because it diverted me towards CyberSecurity, as now I'm mo
 
 **Started:** July 2026
 
-**Current Focus:** Linux Hardware
+**Current Focus:** Linux
 
----
+--- 
 
 # What You'll Find Here
 

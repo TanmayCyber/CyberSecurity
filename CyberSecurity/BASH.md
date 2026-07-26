@@ -1,3 +1,13 @@
+ls = list
+cd = change dirctory
+cat = concatinate
+.= currebt directory
+.. = parent directory
+su = switch user
+sudo = without switching user execute this command as someone
+
+
+
 <pre>
 ls -l
 ls -a

@@ -1,236 +1,270 @@
-<div align=center>
-
- # 💻 Computer and Linux Fundamentals
-</div>
+# 💻 Computer and Linux Fundamentals
 
 ---
- 
+
 # What Is A Computer?
 
-- A computer is an electronic device that stores, processes and produces a meaningful output from given data using a set of instructions. We can even program a computer according to our needs or the specific tasks we want it to perform.
-- A Computer operates on a simple IPO(Input-Process-Output) cycle.
+A computer is an electronic device. It stores, processes and outputs meaningful information by following some instructions. We can program it to do things we need it to.
 
-## Data, Information and difference bw them
+Computers follow an IPO(Input-Process-Output) cycle.
 
-Data and Information are considered same in most cases, but they are not the same.
+## Data and Information
 
-Data refers to the raw fact that have not been processed yet, they might or might not have a meaning.
+In most cases data and information are considered the same but they are not.
 
-<div align="center"> **But** </div>
+Data is raw facts that have not been processed yet. They may or may not have any meaning.
 
-Information is the processed data that can be understood and has a meaning.
+But
 
-## IPO cycle
+Information is processed data which can be understood and has meaning.
 
-Input: The data provided to computer
-Process: Converting the provided data to useful information.
-Output: Displaying or providing processed data to user
+## IPO Cycle
 
+Input: Data given to the computer.
 
-<div align=center>
+Process: Data is converted into useful information.
 
- >*Note: A computer is not defined by its appearance, any electronic device that is programmable and capable of processing data can be considered a computer.*
-</div>
+Output: Processed data is shown to the user.
+
+> Note: A computer can be anything that can be programmed and can process data.
 
 ---
 
-# Components of a computer
+# Components Of A Computer
 
-<br>
+## Hardware
 
-## **Hardware** 
+This is the physical parts of the computer.
 
-The Physical components of a computer that you can touch are known as its hardware.
+### CPU (Central Processing Unit)
 
-### CPU(Central Processing Unit)
+The CPU is the brains of the computer. It handles processing, executing instructions and organising everything.
 
-CPU is known as the brain of a computer, it is responsible for all sorts of processing, executing instructions and coordinating everything.
-
-The CPU performs every instruction in cycles, each cycle performed per unit second is known as the CPU's clock speed,  it is measured in Hertz(Hz).A higher clock speed generally allows a processor to complete more work, but overall performance also depends on other factors like number of CPU cores etc.
+Every instruction is processed in cycles. How many cycles are completed per unit second is known as the clock speed of a CPU. This is measured in hertz (Hz). The higher the clock speed the better the processor can do. However there are other factors such as how many CPU cores.
 
 ### Memory
 
-- Storage: Devices that are used to store data permanently even when computer is turned off.
-- RAM(Random Access Memory): It is the computer's faster but short term memory, its contents are lost when computer is powered off.
+Storage: Devices used to store data permanently.
 
- ### Buses
+RAM (Random Access Memory): This is the fast memory of the computer. It is short term memory so the data is lost when the computer is switched off.
 
- Just like real life buses, computer buses are used to transfer data/information from one place to another.
+### Buses
 
- ### Input Devices and Output Devices
+Like buses in real life, computer buses transfer data/information.
 
- Input Devices: The devices that take input from user and send it to the computer are called Input Devices. Example: Keyboard, Mouse etc.
- 
- Output Devices: The devices that take processed information/output from computer and presents it to user are called output devices. Example: Monitor, Printer etc.
+### Input Devices
 
-## **Software:** 
+These are the devices used to get input from the user and pass it to the computer. e.g Keyboard, Mouse etc.
 
-A Software is a set of instructions programmed to complete a specific task. It is mainly divided into 3 types:
+### Output Devices
 
-* Application Software: It is a type of software designed to complete a specific task, they only gets opened when we open them. Example: MS Word, Instagram, Facebook etc.
-  
-* Utility Software: Utility Software helps us analyze, optimize and maintain our Computer System. Example: Disk Fragmenter, Antivirus etc.
+These are the devices used to give processed information/output from the computer to the user. e.g Monitor, Printer etc.
 
-* System Software: It is a type of software designed to run Computer's hardware and Application Software.
- 
-### Operating System(OS): 
+## Software
 
-Operating System is a system software that acts as the interface between user and computer, it is responsible for data management, networking, user management etc. Example: macOS, Windows, Ubuntu(A **distro** of Linux)
+Software is a set of instructions that have been programmed to help complete certain tasks. There are mainly three types of software.
 
->*Note: You will learn about Distro in this file itself.*
+Application Software: This is software that is designed to do certain tasks. It isn't opened unless you open it. e.g MS Word, Instagram, Facebook etc.
 
-Firmware: It is a software that is permanently stored in Motherboard of a computer that is responsible for starting all of the hardwares and checking if all hardware components are working properly.
+Utility Software: This helps analyse, improve and manage our computer system. e.g Disk Fragmenter, Antivirus etc.
 
-BIOS(Basic Input Output System) was the basic firmware that was used by older computers and nowadays UEFI(Unified Extensible Firmware Interface) is being used because it offers faster and secure boots.
+System Software: This is software designed to help the computer's hardware and application software.
 
-## **Users:** 
+### Operating System (OS):
 
-A user is any individual or program that interacts with a computer. Example: Student, Programmer etc.
+An Operating System is a system software that is the link between the user and computer. It handles data management, networking and user management. e.g macOS, Windows, Ubuntu (A distro of Linux).
 
-<br>
+> Note: You will learn about Distro in this file.
+
+Firmware: This is software that is stored permanently on the motherboard of a computer. It is responsible for powering up all of the hardwares and checking everything is working correctly.
+
+Older computers used BIOS (Basic Input Output System) as basic firmware. They now use UEFI (Unified Extensible Firmware Interface) as it allows faster and secured boots.
+
+## Users
+
+Users are individuals or programs that interact with a computer. e.g Student, Programmer etc.
 
 ---
 
 # Linux
 
+## History
 
-## History 
+Computers in the 1950s-60s were large and expensive. They were mainly used by governments, universities or large corporations.
 
-- **1950s–60s:** Computers were large, expensive, and mainly used by governments, universities, and large corporations.
-- As computers grew more powerful, new problems emerged: multiple users needed to share one machine, developers wanted a standardized way to write software, and manual file management became impractical.
-- **1969:** Researchers at Bell Labs developed **UNIX**, solving these problems by introducing multiuser support, multitasking, and other key features.
-- Early operating systems were written in assembly language, making them hard to maintain or port to new hardware. **Dennis Ritchie** developed the **C programming language**, and much of UNIX was rewritten in C — making it portable across different hardware.
-- **1983:** **Richard Stallman** launched the **GNU Project** (*GNU's Not UNIX*), aiming to build a system that was free to use, modify, and distribute, and compatible with UNIX.
-> A **kernel** is system software that acts as a bridge between a computer's hardware and the software (applications) running on it.
-- GNU had nearly everything needed for a full OS — except a working kernel. Its own kernel project, **GNU Hurd**, began in 1990 but progressed slowly.
-- Around the same time, **Andrew S. Tanenbaum** developed **MINIX**, a small UNIX-like OS built for teaching — not for production use, but it inspired many students.
-- **1991:** A Finnish computer science student, **Linus Torvalds**, began building a new kernel as a personal hobby project. On **25 August 1991**, he announced it on the Usenet newsgroup `comp.os.minix`, describing it as just a hobby that wouldn't be "big and professional" like GNU.
-- This kernel became known as **Linux**.
+As computers became more powerful new issues arose. Multiple users were trying to share one computer. Developers wanted a standardised way of developing software. Manually managing files became impractical.
+
+In 1969 Researchers in Bell Labs created UNIX. This solved the issues by adding multi-user support, multi-tasking and other vital features.
+
+Early operating systems were created using assembly language. This made them difficult to manage and transfer to new hardware. Dennis Ritchie created the C programming language. Much of UNIX was written in C to make it transferrable between different hardware.
+
+In 1983 Richard Stallman started the GNU Project (GNU's Not UNIX) to create a system that could be freely used, modified and distributed and be compatible with UNIX.
+
+> A kernel is system software that is used as a bridge between the hardware and software (applications) of a computer.
+
+GNU had nearly everything needed for a full OS however they didn't have a working kernel. Their own kernel project GNU Hurd started in 1990 but progress was slow.
+
+Around the same time Andrew S. Tanenbaum created MINIX. This was a small UNIX like operating system. It wasn't meant to be used but inspired many students.
+
+In 1991 a Finnish computer science student named Linus Torvalds started creating a new kernel. On 25 August 1991 he posted to the Usenet newsgroup comp.os.minix stating "Just a hobby, not big and professional like GNU." He was creating a new kernel.
+
+This kernel became known as Linux.
 
 ---
 
 ## Linux Basics
 
-As mentioned in the Linux History, Linux is not an operating System, it is a kernel.
+As stated in the Linux history Linux is not an operating System. It is a kernel.
 
->GNU and Linux combined make an operating system that is commonly known as Linux.
+> GNU and Linux combined make an Operating System known as Linux.
 
-Without the kernel, the operating system cannot function.
+Without the kernel the Operating System won't work.
 
-Linux has become one of the most important Operating Systems at present because it is:
+Linux is one of the most important Operating Systems now as it is:
 
-- **Free:** Most of the Distros of Linux are available for free at their official websites.
-- **Open Source:** Source Code of Linux is available to us and we are free to use, edit, and share it.
-- **Secure:** Linux is more secure because of its strong permission system and open-source development reduces the risk of unauthorized access and malware.
-- **Stable:** Linux is more stable because its efficient resource management and process isolation allows it to run reliably for long periods without crashing.
-- **Flexible:** We can customize Linux according to our preference and requirements.
+Free: Most Distros of Linux can be downloaded for free from their official websites.
 
-Cybersecurity professionals work with operating systems daily, tasks such as system administration, network analysis, log analysis, etc., are commonly performed on Linux systems.
+Open Source: We can view the source code of Linux. We can use, modify and share it.
 
-Most cybersecurity tools are developed primarily for Linux because it offers powerful command-line utilities, scripting capabilities, and fine-grained control over system resources.
+Secure: Linux is more secure due to the security permissions and being open source reduces the risk of unauthorised access and Malware.
 
+Stable: Linux is more stable due to it having efficient resource management and processes.
 
-A strong Linux foundation makes advanced cybersecurity topics significantly easier to understand.
+Flexible: We can customise Linux to our liking.
 
-Linux is used almost everywhere: Mobile Devices(Android is also based on Linux), Supercomputers, Cloud Computing, and of course Cybersecurity. That is also the reason why Linux is important for Cybersecurity.
+Cybersecurity professionals will work with Operating Systems daily. Tasks such as administration, network analysis, log analysis etc are often carried out on Linux.
+
+Most Cybersecurity tools are developed for Linux as it has powerful command line tools.
+
+Having knowledge of Linux makes it much easier to understand advanced Cybersecurity topics.
+
+Linux is used nearly everywhere. Mobile Devices (Android is also based on Linux), Supercomputers, Cloud Computing and Cybersecurity. This is why it is important for Cybersecurity.
 
 ---
 
-### User Space and Kernel Space
+### User Space And Kernel Space
 
-User space and Kernel Space are two different memory areas in Operating Systems, this separation is done for our computer's security and stability. If not separated, an application can delete, read and write anything. 
+User Space and Kernel Space are two different areas of memory in Operating Systems. This is to keep our computer secure and stable. Without this an application could delete, read and write anything.
 
-User Space: It is where normal applications are stored and run, these applications cannot directly access Hardware, they first have to use system call then if kernel accepts the system call, the operation is done
+User Space: This is where normal applications live. These apps cannot directly access any hardware. They have to make a system call. If the kernel agrees to the system call then the operation will be carried out.
 
-System Call: A system call (syscall) is a request made by a user-space program to the kernel to perform an operation that requires privileged access.
+System Call: A system call (syscall) is when a user space program requests the kernel to complete an operation.
 
-Kernel Space: It is where Linux Kernel runs, it has full access to computer.
+Kernel Space: This is where Linux Kernel lives. It has full access to the computer.
 
 ---
 
 ### Linux Ecosystem
 
-The Linux ecosystem is the collection of all the software, tools, distributions, developers, companies, and communities that work together to develop, support, and use Linux.
+The Linux ecosystem is all the software, tools, distributions, developers, companies and communities involved in developing, supporting and using Linux.
 
 #### Linux Distributions (Distro)
 
-A distro is one complete operating system built around Linux Kernel. it Includes: Example — Ubuntu:
+A distro is a complete Operating System based on the Linux Kernel. It includes: Example: Ubuntu:
 
-- Linux Kernel
-- GNU Utilities
-- System Libraries
-- Shell
-- Package Manager
-- Software Repositories
-- Desktop Environment (optional)
-- Applications
-- Documentation
+Linux Kernel
 
-Some Popular Distributions are:
+GNU Utilities
 
-1) Ubuntu: It is beginner friendly.
-2) Debian
-3) Parrot Security OS: All rounder for CyberSecurity
-4) Kali Linux: Best for Pentesting
+System Libraries
+
+Shell
+
+Package Manager
+
+Software Repositories
+
+Desktop Environment (optional)
+
+Applications
+
+Documentation
+
+Some popular distributions are:
+
+Ubuntu: Great for beginners.
+
+Debian
+
+Parrot Security OS: All rounder for CyberSecurity.
+
+Kali Linux: Best for Pentesting.
 
 #### Linux Kernel
 
-The Linux Kernel is the core of every Linux Distro. It acts as the intermediary between hardware and software, and provides essential information/services to the running software. It does this through:
+The Linux Kernel is the core of every Linux Distro. It is used as an intermediary between hardware and software. It gives essential information/services to software while running. It does this by:
 
-- Process management
-- Memory management
-- Hardware communication
-- Device management
-- File system management
-- Network management
-- Security enforcement
+Process Management
 
-Every Linux distribution uses the Linux kernel, although different distributions might use different kernel versions.
+Memory Management
+
+Hardware Communication
+
+Device Management
+
+File System Management
+
+Network Management
+
+Security
+
+Every Linux distribution uses the Linux kernel. Different distributions may use different versions of kernels.
 
 #### GNU Utilities
 
-GNU provides many commands that we will use daily in the future, examples include:
+There are many commands provided by GNU that we will use regularly in the future. Examples include:
 
-- `ls`
-- `cp`
-- `mv`
-- `rm`
-- `mkdir`
-- `cat`
-- `grep`
-- `chmod`
-- `chown`
-- `bash`
+ls
 
-Without GNU utilities, Linux would only provide the kernel, making it difficult for users to interact with the system.
+cp
+
+mv
+
+rm
+
+mkdir
+
+cat
+
+grep
+
+chmod
+
+chown
+
+bash
+
+Without GNU utilities Linux would only provide the kernel.
 
 #### System Libraries
 
-System Libraries provide reusable code for applications such that they can reuse code from System Libraries instead of writing its own code. Some common libraries are glibc, OpenSSL ,libstdc++.
+System Libraries allow code to be reused in applications. Some common ones are glibc, OpenSSL ,libstdc++.
 
 #### Shell
 
-The Shell is a program that interprets user commands and communicates with the operating system. Popular Linux shells are:
+Shell is a program that translates commands from the user. Some popular shells are:
 
-- Bash: Common shell on many distros
-- Zsh: Interactive shell with plugins/add-ons
-- Fish: Beginner-friendly interactive shell
+Bash: Common shell for many distros.
 
->Note: Terminal is the interface on which we type commands and shells are the interpreters that communicate with the OS for output.
+Zsh: Interactive shell with plugins/add-ons.
+
+Fish: Beginner friendly interactive shell.
+
+> Note: Terminal is where we type our commands. Shells are the translators that talk to the OS.
 
 #### Package Managers
 
-A package manager acts like an app manager for Linux. Instead of downloading and installing software manually, it handles the entire process for you, including any additional software dependencies the application might needs to work properly.
+A package manager is like an app manager. It will manage the whole process of downloading and installing software. It will also manage any extra software that the application may require.
 
-Dependencies are additional software, libraries, or files that a program needs in order to run correctly.
+Dependencies are extra software, libraries or files that will be required for a program to work.
 
 #### Software Repositories
 
-A software repository (repo) is an online collection of software packages maintained by a Linux distribution or a trusted organization. Package managers use these repositories to install and update software.
+A software repository (repo) is an online collection of software managed by a Linux distro or trusted organisation. Package managers will use these to install/update software.
 
-#### Desktop Environment 
+#### Desktop Environment
 
-A Desktop Environment is a collection of software that provides the graphical user interface (GUI) of a Linux operating system, allowing users to interact with the system using windows, icons, menus, and a mouse. Example: GNOME, KDE Plasma etc.
+A Desktop Environment is a collection of software that provides a GUI for a Linux OS. Example: GNOME, KDE Plasma etc.
 
 ---
 
@@ -238,68 +272,68 @@ A Desktop Environment is a collection of software that provides the graphical us
 
 ## Why Ubuntu?
 
-You all must me wondering that I already said that Kali Linux is best for Pentesting, Parrot OS is all rounder in CyberSecurity then why must we learn Ubuntu why not just start with them.
+You may be wondering why we should learn Ubuntu when I have said that Kali Linux is best for Pentesting and Parrot OS is the all rounder for CyberSecurity.
 
-The answer is simple, they are not beginner friendly, they are too complicated for a beginner to understand, that's why we will start by learning Ubuntu then move on to Kali Linux or Parrot OS.
+The answer to this is simple. They are not beginner friendly. They are very complicated for beginners to understand. We will start with learning Ubuntu and then move onto Kali Linux/Parrot OS.
 
-## Ways to install Ubuntu
+## Ways To Install Ubuntu
 
-- **Virtual Machine**
+Virtual Machine
 
-A virtual machine allows Ubuntu to run inside your existing operating system. It is safe to experiment, easy to reset and changes nothing in our current system.
+This allows you to run Ubuntu within your current operating system. It is safe to try things out, easy to reset and doesn't change anything.
 
-- **Dual Boot**
+Dual Boot
 
-Ubuntu and another operating system (such as Windows) are installed on the same computer, when the computer starts, you can choose which operating system to boot. the only disadvantage is that installation is really complex and mistakes may affect existing OS.
+Ubuntu and another operating system (Windows) can be installed onto your computer. When you start up your computer you can choose what OS to use. The downside to this is that it can be very complicated to install and mistakes can effect your existing OS.
 
-- **Full Installation**
+Full Installation
 
-Ubuntu replaces the existing operating system and uses the entire computer.
+This will replace your operating system with Ubuntu.
 
-- **Live USB**
+Live USB
 
-Ubuntu can also run directly from a bootable USB drive without installation.
+Ubuntu can be ran from a bootable USB.
 
 ---
 
-# Common Misconceptions
+## Common Misconceptions
 
-1) Linux is a Operating System
+1) Linux is an Operating System.
 
-Linux is a Kernel, not Operating System.
+Linux is a Kernel.
 
-2) Ubuntu is Linux itself
+2) Ubuntu is Linux.
 
 No, Ubuntu is a Distribution of Linux.
 
-3) GNU and Linux are the same thing.
+3) GNU and Linux are the same.
 
-GNU and Linux are separate projects just combined together to build various Distros
+They are two separate projects that have been combined to create various Distros.
 
 4) Linux is only for hackers.
 
-Many Developers, scientists, researchers etc also use linux for various reason not for just hacking.
+Many Developers, Scientists, Researchers etc use linux for various reasons.
 
-5) The kernel is the operating system
+5) The kernel is the operating system.
 
-No, Kernel is a core component of OS but not OS itself.
+No, the kernel is a core part of the OS.
 
-6) Applications communicate directly with hardware
+6) Applications talk directly to hardware.
 
-As explained above, applications communicate with Kernel then kernel communicated with hardware.
+As explained above applications talk to the Kernel which then talks to the hardware.
 
-7) The operating system starts first
+7) The operating system starts first.
 
-Firmware starts first.
+The firmware starts first.
 
-8) Every Linux distribution is completely different
+8) All Linux distributions are completely different.
 
-No, every Linux distro contains Linux Kernel and GNU
+No, all Linux distros have the Linux Kernel and GNU.
 
-9) Linux has no graphical interface.
+9) Linux doesn't have a graphical interface.
 
 Linux supports many graphical desktop environments.
 
-10) Android is not related to Linux
+10) Android isn't related to Linux.
 
-Android is also built on Linux Kernel
+Android is also built on the Linux Kernel.

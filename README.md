@@ -10,6 +10,8 @@
 
 Hello everyone! My name is **Tanmay Garg**, and I am a **16-year-old** from **India**.
 
+> The age mentioned here is the age when i started writing this repo
+
 This repository documents my cybersecurity learning journey—the challenges I've faced while learning, my mindset during those challenges, and what I ultimately learned from them.
 
 It also contains all of my cybersecurity notes, which are written entirely by me. My goal is to build a **strong foundation**, **track my progress**, and hopefully help other beginners who are starting their own cybersecurity journey by letting them know **what not to do**.

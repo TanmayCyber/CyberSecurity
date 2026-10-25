@@ -33,4 +33,4 @@ Looking back, deleting my first repository was one of the best decisions I made.
 ## Day 14-30
 ---
 
-I took a short break because my school exams were coming up and tried to focus on my studies. You probably haven't noticed but I am currently a Class 12th student. During these days, I came across this amazing program called: IITM Pravartak Cybersecurity 6 month program. Although I was very interested in this program, my parents weren't too fond of the idea as they said I should focus more on my studies in Class 12th. I'll have to put this on hold for now.
+I took a short break because my school exams were coming up and tried to focus on my studies. You probably haven't noticed but I am currently a Class 12th student. During these days, I came across this amazing program by IITM Pravartak called The Smart ShieldAI-Powered Cybersecurity Mastery, a 6 month program. Although I was very interested in this program, my parents weren't too fond of the idea as they said I should focus more on my studies in Class 12th. I'll have to put this on hold for now.
